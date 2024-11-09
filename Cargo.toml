@@ -1,0 +1,8 @@
+[package]
+name = "syncd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+time = { version="0.3.36", features = ["macros", "local-offset"] }
